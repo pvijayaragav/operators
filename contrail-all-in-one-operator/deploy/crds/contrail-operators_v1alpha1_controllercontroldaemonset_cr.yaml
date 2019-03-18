@@ -1,0 +1,7 @@
+apiVersion: contrail-operators.juniper.net/v1alpha1
+kind: ControllerControlDaemonSet
+metadata:
+  name: example-controllercontroldaemonset
+spec:
+  # Add fields here
+  contrailNodes: "10.84.13.52"

@@ -1,0 +1,7 @@
+apiVersion: tf.io/v1alpha1
+kind: VrouterAgent
+metadata:
+  name: example-vrouteragent
+spec:
+  # Add fields here
+  input: "10.84.13.52"
